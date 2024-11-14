@@ -1,0 +1,31 @@
+<form>
+    <fieldset>
+      <legend>Formulario</legend>
+      <div>
+        <label for="exampleInputEmail1" class="form-label mt-4">Correo Electronico</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">No compartiremos su direccion de correo con nadie.</small>
+      </div>
+      <div>
+        <label for="exampleInputPassword1" class="form-label mt-4">Contraseña</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña" autocomplete="off">
+      </div>
+      <div>
+        <label for="exampleSelect1" class="form-label mt-4">Seleccionar Entrega</label>
+        <select class="form-select" id="exampleSelect1">
+          <option>A domicilio</option>
+          <option>Punto de encuetro</option>
+          <option>Pasar por la tienda</option>
+          <option>Sucursal de correo</option>
+        </select>
+      </div>
+      <div>
+      <label for="exampleSelect1" class="form-label mt-4">Forma de Pago</label>
+      <select class="form-select" id="exampleSelect1">
+        <option>Efectivo</option>
+        <option>Transferecia</option>
+      </select>
+    </div>
+    </fieldset>
+  </form>
+  <button (click)="realizarCompra()" class="btn btn-secondary">Finalizar Compra</button>

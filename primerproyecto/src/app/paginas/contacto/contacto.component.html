@@ -1,0 +1,42 @@
+<div id="color1" class="col-12 d-flex flex-column justify-content-center align-items-center" style="min-height: 100vh;">
+    <h4 class="mb-3">Formulario de preguntas</h4>
+    <form class="needs-validation" novalidate style="width: 100%; max-width: 800px;">
+      <div class="row g-3">
+        <div class="col-sm-6">
+          <label for="firstName" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+          <div class="invalid-feedback">
+            Nombre es requerido
+          </div>
+        </div>
+  
+        <div class="col-sm-6">
+          <label for="lastName" class="form-label">Apellido</label>
+          <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+          <div class="invalid-feedback">
+            Apellido es requerido
+          </div>
+        </div>
+  
+        <div class="col-12">
+          <label for="email" class="form-label">Email <span class="text-body-secondary">(Opcional)</span></label>
+          <input type="email" class="form-control" id="email" placeholder="@">
+          <div class="invalid-feedback">
+            Ingresa un email válido
+          </div>
+        </div>
+  
+        <div class="col-12 mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Escribe tu pregunta</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+  
+        <div class="col-12 text-center mb-3">
+          <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+        </div>
+      </div>
+    </form>
+  
+    <h3 class="text-center">Ubicación: <br> Vofi</h3>
+  
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6202.290016396989!2d-68.00556832961824!3d-38.98918676002939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1731606673745!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
